@@ -1,10 +1,12 @@
-require('dotenv').config({path:"./config.js"}); 
+const env = require("dotenv")
 const mongoose = require("mongoose");
+env.config();
 require("colors");
 
 const connectDb = async () => {
   try {
-    const conn = await mongoose.connect("mongodb+srv://designsexpert5company1212:admin123@cluster0.dgwix.mongodb.net/", {useNewUrlParser: true});
+  //  invalid credentials 
+    const conn = await mongoose.connect("mongodb+srv://designsexpert5company1212:fcprimedata@cluster0.dgwix.mongodb.net/", {useNewUrlParser: true});
     
     console.log(`MongoDB Connected: ${conn.connection.host}`.yellow);
   } catch (error) {
