@@ -1,0 +1,9 @@
+.sub-category span {
+    cursor: pointer; 
+    padding: 5px;    
+    transition: background-color 0.3s; 
+  }
+  
+  .sub-category span:hover {
+    background-color: rgb(233, 233, 233); 
+  }

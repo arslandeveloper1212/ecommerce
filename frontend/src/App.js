@@ -20,7 +20,8 @@ function App() {
     <Router>
       <Header />
       <main className="my-3">
-        <Container>
+      <Route path="/" component={HomeScreen} exact />
+        <Container >
           <Route path="/order/:id" component={OrderScreen} />
           <Route path="/login" component={LoginScreen} />
           <Route path="/payment" component={PaymentScreen} />
@@ -30,7 +31,7 @@ function App() {
           <Route path="/register" component={RegisterScreen} />
           <Route path="/cart/:id?" component={CartScreen} />
           <Route path="/product/:id" component={ProductDetails} />
-          <Route path="/" component={HomeScreen} exact />
+          
         </Container>
       </main>
 

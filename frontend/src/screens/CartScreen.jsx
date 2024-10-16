@@ -13,7 +13,7 @@ import {
   ListGroupItem,
 } from "react-bootstrap";
 import { addToCart, removeFromCart } from "../actions/cartAction";
-
+import "./CartScreen.css"
 const CartScreen = ({ match, location, history }) => {
   const productId = match.params.id;
   const qty = location.search ? Number(location.search.split("=")[1]) : 1;
@@ -36,6 +36,9 @@ const CartScreen = ({ match, location, history }) => {
   const checkout = () => {
     history.push("/login?redirect=shipping");
   };
+
+
+  
   return (
     <div>
       <Row>
@@ -60,6 +63,7 @@ const CartScreen = ({ match, location, history }) => {
                     <Col md={2}>
                       <Form.Control
                         as="select"
+                       className="custom-border"
                         value={item.qty}
                         onChange={(e) =>
                           dispatch(

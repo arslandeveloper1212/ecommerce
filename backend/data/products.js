@@ -5,7 +5,7 @@ const products = [
     description:
       "boAt Airdopes 121v2 TWS Earbuds with Bluetooth V5.0, Immersive Audio, Up to 14H Total Playback, Instant Voice Assistant, Easy Access Controls with Mic and Dual Tone Ergonomic Design(Active Black) ",
     brand: "Boat",
-    category: "Electronics",
+    category: "AirPods",
     price: 20.99,
     countInStock: 10,
     rating: 4.5,
@@ -17,7 +17,7 @@ const products = [
     description:
       "Say hello to the Micromax IN 1b smartphone whose powerful MediaTek Helio G35 gaming processor and a 5000 mAh battery will pave the way for effortless multitasking and usage.",
     brand: "Micromax",
-    category: "Electronics",
+    category: "Mobile",
     price: 599.99,
     countInStock: 7,
     rating: 4.0,
@@ -29,7 +29,7 @@ const products = [
     description:
       "Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design",
     brand: "Cannon",
-    category: "Electronics",
+    category: "Camera",
     price: 929.99,
     countInStock: 5,
     rating: 3,
@@ -41,7 +41,7 @@ const products = [
     description:
       "The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music",
     brand: "Sony",
-    category: "Electronics",
+    category: "PlayStation",
     price: 399.99,
     countInStock: 11,
     rating: 5,
@@ -53,7 +53,7 @@ const products = [
     description:
       "Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience",
     brand: "Logitech",
-    category: "Electronics",
+    category: "Mouse",
     price: 49.99,
     countInStock: 7,
     rating: 3.5,

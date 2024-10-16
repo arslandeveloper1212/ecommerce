@@ -16,9 +16,9 @@ const Header = () => {
   return (
     <div>
       <Navbar bg="dark" expand="lg" variant="dark" collapseOnSelect>
-        <Container>
+        <Container fluid>
           <LinkContainer to="/">
-            <Navbar.Brand>Online Shop</Navbar.Brand>
+            <Navbar.Brand>ArslanShop</Navbar.Brand>
           </LinkContainer>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
